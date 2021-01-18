@@ -1,2 +1,2 @@
-# Java-JPA-02
+# Estudo em JPA - JPQL e Criteria
  
