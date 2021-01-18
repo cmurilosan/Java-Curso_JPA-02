@@ -13,7 +13,7 @@ public class Conta {
 	private Integer agencia;
 	private Integer numero;
 	private Double saldo;
-	@OneToMany
+	@OneToMany(mappedBy = "conta")
 	private List<Movimentacao> movimentacoes;
 
 	public void setSaldo(Double saldo) {
