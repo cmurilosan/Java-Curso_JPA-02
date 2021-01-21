@@ -12,4 +12,10 @@
 - Podemos reconfigurar esse comportamento pele atributo `fetch` da anotação usando a enum `FetchType.EAGER`
 - Nas queries podemos inicializar um relacionamento lazy usando `join fetch`
   - para receber apenas resultados distintos podemos usar a palavra chave `distinct`
+  
+## Aula 03 - Funções da agregação e Group By
+- JPQL possui os tipico funções de agregação do mundo SQL
+  - Exemplos são **SUM**, **AVG**, **MIN**, **MAX** ou **COUNT**
+- JPQL também possui a cláusula `group` by que pode ser usado em combinação com as funções de agregação
+  como executar projeções e "instanciar objetos" já pelo JPQL
  
