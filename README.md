@@ -18,4 +18,11 @@
   - Exemplos são **SUM**, **AVG**, **MIN**, **MAX** ou **COUNT**
 - JPQL também possui a cláusula `group` by que pode ser usado em combinação com as funções de agregação
   como executar projeções e "instanciar objetos" já pelo JPQL
+
+## Aula 04 - Camada de Persistência
+- Mesmo com JPA faz sentido usar um DAO para encapsular as queries
+- Em algumas bibliotecas chamam os DAO de repositórios (por exemplo Spring Data)
+- O DAO deve receber o `EntityManager` como dependência (preferencialmente pelo construtor)
+- `NamedQuery` é uma forma de associar a entidade com suas queries
+  - `NamedQuery` tem uma vantagem pois é analisada ao criar o `EntityManager`
  
